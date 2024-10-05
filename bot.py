@@ -1,4 +1,3 @@
-
 import sys
 import glob
 import importlib
@@ -32,7 +31,7 @@ from Script import script
 from datetime import date, datetime 
 import pytz
 from aiohttp import web
-from plugins import web_server
+from plugins import web_server, check_expired_premium
 
 import asyncio
 from pyrogram import idle
@@ -74,6 +73,7 @@ async def Jisshu_start():
     temp.U_NAME = me.username
     temp.B_NAME = me.first_name
     JisshuBot.username = '@' + me.username
+    JisshuBot.loop.create_task(check_expired_premium(JisshuBot))
     logging.info(f"{me.first_name} with for Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
     logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
