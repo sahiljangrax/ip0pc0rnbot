@@ -331,6 +331,10 @@ User - {}"""
 /set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
 --------------Set Tutorial-------------
 /set_tutorial - set verification tutorial 
+/set_tutorial_2 - Set Second Verification Tutorial
+/set_tutorial_3 - Set Third Verification Tutorial
+-----------Reset Group Settings--------
+/reset_grp - Reset Your Group All Settings
 -------------Set Log Channel-----------
 --> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
 
@@ -363,7 +367,11 @@ developer : Mr.Jisshu
 -----------Set Imdb Template-----------
 /set_template - set IMDb template <a href="https://t.me/Jisshu_developer/8">Example</a>
 --------------Set Tutorial-------------
-/set_tutorial - set verification tutorial 
+/set_tutorial - set verification tutorial
+/set_tutorial_2 - Set Second Verification Tutorial
+/set_tutorial_3 - Set Third Verification Tutorial
+-----------Reset Group Settings--------
+/reset_grp - Reset Your Group All Settings 
 -------------Set Log Channel-----------
 --> ᴀᴅᴅ ʟᴏɢ ᴄʜᴀɴɴᴇʟ ʙʏ ᴛʜɪs ꜰᴏʀᴍᴀᴛ & ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ʟᴏɢ ᴄʜᴀɴɴᴇʟ 👇
 
