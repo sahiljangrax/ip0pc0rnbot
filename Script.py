@@ -296,10 +296,10 @@ User - {}"""
 --------------Verify ID--------------
 ➩ /verify_id - Generate a verification ID for group use only
 --------------Set Ads----------------
-➩ /set_ads {ads name}}#{Times}#{photo URL} - <a href="https://t.me/Jisshu_developer">Explain</a>
+➩ /set_ads {ads name}}#{Times}#{photo URL} - <a href="https://t.me/LMOWNERBOT">Explain</a>
 ➩ /del_ads - Delete ads
 -------------Top Trending------------
-➩ /setlist {Mirzapur, Money Heist} - <a href=https://t.me/Jisshu_developer>Explain</a>
+➩ /setlist {Mirzapur, Money Heist} - <a href=https://t.me/LMOWNERBOT>Explain</a>
 ➩ /clearlist - Clear all lists
 </blockquote></b>"""
 
@@ -333,7 +333,7 @@ User - {}"""
 ------------Set File Caption-----------
 /set_caption - set coustom file caption 
 -----------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer">Example</a>
+/set_template - set IMDb template <a href="https://t.me/LMOWNERBOT">Example</a>
 --------------Set Tutorial-------------
 /set_tutorial {{tutorial link}} - set 1 verification tutorial 
 /set_tutorial_2 {{tutorial link}} - set 2 verification tutorial 
@@ -367,7 +367,7 @@ NOTE:
 ------------Set File Caption-----------
 /set_caption - set coustom file caption 
 -----------Set Imdb Template-----------
-/set_template - set IMDb template <a href="https://t.me/Jisshu_developer">Example</a>
+/set_template - set IMDb template <a href="https://t.me/LMOWNERBOT">Example</a>
 --------------Set Tutorial-------------
 /set_tutorial {tutorial link} - set 1 verification tutorial 
 /set_tutorial_2 {tutorial link} - set 2 verification tutorial 
