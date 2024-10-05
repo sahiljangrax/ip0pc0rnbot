@@ -4,10 +4,9 @@ class script(object):
 
 Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Google Spelling..!!
 
-⚠️ Wᴀᴛᴄʜ @LM_How_To_Watch_Movie for more information about how to...❓
+⚠️ Wᴀᴛᴄʜ <a href='https://t.me/LM_How_To_Watch_Movie'>How To Watch Movie</a> for more information about how to...❓
 
-\n<blockquote>🎊 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: ➡<a href='https://t.me/LonelyMoviesBots'>LonelyMoviesBots</a>⬅</blockquote></b>"""
-    
+<blockquote>🎊 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: ➡<a href='https://t.me/Lonely_Movies'>Lonely_Movies</a></blockquote></b>"""
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
     TELE_TXT = """<b>/telegraph - sᴇɴᴅ ᴍᴇ ᴘɪᴄᴛᴜʀᴇ ᴏʀ ᴠɪᴅᴇᴏ ᴜɴᴅᴇʀ (5ᴍʙ)
