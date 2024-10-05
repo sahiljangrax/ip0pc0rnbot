@@ -1,7 +1,8 @@
 import os
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n<blockquote>Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Google Spelling..!!</blockquote>
-
+    START_TXT = """<b>ʜᴇʏ {}, {}
+    
+    \n<blockquote>Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Google Spelling..!!</blockquote>
 ⚠️ Wᴀᴛᴄʜ <a href='https://t.me/LM_How_To_Watch_Movie'>How To Watch Movie</a> for more information about how to...❓
 
 <blockquote>🎊 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: <a href='https://t.me/Lonely_Movies'>Lonely Movies</a>✔</blockquote></b>"""
