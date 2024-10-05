@@ -902,7 +902,11 @@ async def all_settings(client, message):
 
 🌀 ꜰꜱᴜʙ ᴄʜᴀɴɴᴇʟ ɪᴅ - /show_fsub
 
-📍 ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ - {settings['tutorial']}
+1️⃣ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ - {settings['tutorial']}
+
+2️⃣ 𝟸ɴᴅ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ -  {settings.get('tutorial_2', TUTORIAL_2)}
+
+3️⃣ 𝟹ʀᴅ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ -  {settings.get('tutorial_3', TUTORIAL_3)}
 
 🎯 ɪᴍᴅʙ ᴛᴇᴍᴘʟᴀᴛᴇ - `{settings['template']}`
 
