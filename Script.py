@@ -1,7 +1,6 @@
 import os
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n
-
+    START_TXT = """<b>ʜᴇʏ {}, {}
 Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Google Spelling..!!
 
 ⚠️ Wᴀᴛᴄʜ <a href='https://t.me/LM_How_To_Watch_Movie'>How To Watch Movie</a> for more information about how to...❓
