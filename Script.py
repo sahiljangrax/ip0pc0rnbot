@@ -4,6 +4,7 @@ class script(object):
     \n<blockquote>Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Google Spelling..!!</blockquote>
     
 ⚠️ Wᴀᴛᴄʜ <a href='https://t.me/LM_How_To_Watch_Movie'>How To Watch Movie</a> for more information about how to...❓
+
 <blockquote>🎊 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆: <a href='https://t.me/Lonely_Movies'>Lonely Movies</a>✔</blockquote></b>"""
     HELP_TXT = """<b>ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..</b>"""
     
