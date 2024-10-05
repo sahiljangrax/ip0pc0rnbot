@@ -44,7 +44,7 @@ Here You Can Request Movie's, Just Sent Movie OR WebSeries Name With Proper Goog
 <blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/LMOWNERBOT'>LM Owner</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ‣ : <a href='https://t.me/LMOWNERBOT'>Sahil</a></b></blockquote>"""    
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ‣ : <a href='https://t.me/LMOWNERBOT'>Sahil</a></b></blockquote>"""   
     
     SUPPORT_GRP_MOVIE_TEXT = '''<b>ʜᴇʏ {}
 
