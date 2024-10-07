@@ -61,13 +61,13 @@ async def send_movie_updates(bot, file_name, caption, file_id):
     for lang in nb_languages:
       if lang.lower() in caption.lower():
         language += f"{lang}, "
-    language = language.strip(", ") or "Not Idea"
+    language = language.strip(", ") or "Multi-Language✨"
     movie_name = await movie_name_format(file_name)    
     if movie_name in processed_movies:
       return 
     processed_movies.add(movie_name)    
     poster_url = await get_imdb(movie_name)    
-    caption_message = f"<blockquote>New File Update😊✅</blockquote>\n\nFile_Name:- {movie_name}\nLanguage:- {language}\nQuality:- {quality}"    
+    caption_message = f"<blockquote>New File Update😊✅</blockquote>\nFile_Name:- {movie_name}\nLanguage:- {language}\nQuality:- {quality}"    
     movie_update_channel = await db.movies_update_channel_id()    
     btn = [
       [InlineKeyboardButton('💫Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ💝', url=f'https://t.me/+T-wawZ6nQwA3Y2U1')]
