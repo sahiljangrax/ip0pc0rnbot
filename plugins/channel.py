@@ -66,23 +66,23 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         for lang in nb_languages:
             if lang.lower() in caption.lower():
                 language += f"{lang}, "
-        language = language.strip(", ") or "Not Idea"
+        language = language.strip(", ") or "Multi-Language✨"
         movie_name = await movie_name_format(file_name)    
         if movie_name in processed_movies:
             return 
         processed_movies.add(movie_name)    
         poster_url = await get_imdb(movie_name)
-        caption_message = f"#New_File_Added ✅\n\nFile_Name:- <code>{movie_name}</code>\n\nLanguage:- {language}\n\nQuality:- {quality}"    
+        caption_message = f"Nᴇᴡ Uᴘʟᴏᴀᴅ Uᴘᴅᴀᴛᴇ✅\n<blockquote>💛𝗡𝗮𝗺𝗲:- {movie_name}\n💚𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲:- {language}\n💜𝗤𝘂𝗮𝗹𝗶𝘁𝘆:- {quality}</blockquote>\n🔎 𝖭𝗈𝗐 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖲𝖾𝖺𝗋𝖼𝗁 𝖳𝗁𝗂𝗌 𝖨𝗇 𝖮𝗎𝗋 𝖬𝗈𝗏𝗂𝖾 𝖲𝖾𝖺𝖼𝗁 𝖦𝗋𝗈𝗎𝗉 👇"     
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [
-            [InlineKeyboardButton('Get File', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')]
+            [InlineKeyboardButton('💫Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ💝', url=f'https://t.me/+T-wawZ6nQwA3Y2U1')]
         ]
         reply_markup = InlineKeyboardMarkup(btn)
         if poster_url:
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=poster_url, caption=caption_message, reply_markup=reply_markup)
         else:
-            no_poster = "https://telegra.ph/file/88d845b4f8a024a71465d.jpg"
+            no_poster = "https://envs.sh/Itt.jpg"
             await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
                                  photo=no_poster, caption=caption_message, reply_markup=reply_markup)  
     except Exception as e:
