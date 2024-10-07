@@ -69,11 +69,9 @@ async def send_movie_updates(bot, file_name, caption, file_id):
     poster_url = await get_imdb(movie_name)    
     caption_message = f"<blockquote>New File Update😊✅</blockquote>\n<blockquote>💛𝗡𝗮𝗺𝗲:- {movie_name}\n💚𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲:- {language}\n💜𝗤𝘂𝗮𝗹𝗶𝘁𝘆:- {quality}</blockquote>"    
     movie_update_channel = await db.movies_update_channel_id()    
-    btn = ([
+    btn = [
       [InlineKeyboardButton('💫Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ💝', url=f'https://t.me/+T-wawZ6nQwA3Y2U1')]
-    
-      [InlineKeyboardButton('Gᴇᴛ Tʜɪꜱ Fɪʟᴇ Oɴʟʏ', url=f'https://t.me/{temp.U_NAME}?start=pm_mode_file_{ADMINS[0]}_{file_id}')]
-    ])
+    ]
     reply_markup = InlineKeyboardMarkup(btn)
     if poster_url:
       await bot.send_photo(movie_update_channel if movie_update_channel else MOVIE_UPDATE_CHANNEL, 
