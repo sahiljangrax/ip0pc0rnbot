@@ -386,6 +386,7 @@ class Database:
             return bot['movie_update_feature']
         else:
             return IS_SEND_MOVIE_UPDATE
+
     async def update_send_movie_update_status(self, bot_id, enable):
         bot = await self.botcol.find_one({'id': int(bot_id)})
         if bot:
@@ -416,4 +417,3 @@ class Database:
                 return None
         return await self.movies_update_channel.update_one({} , {'$set': {'id': id}} , upsert=True)
 db = Database()
-
