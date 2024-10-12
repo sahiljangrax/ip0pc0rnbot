@@ -20,7 +20,7 @@ BUTTONS = {}
 FILES_ID = {}
 CAP = {}
 
-# zishan [
+# Owner [
 from database.jsreferdb import referdb
 from database.config_db import mdb
 import logging
